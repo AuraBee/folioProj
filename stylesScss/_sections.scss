@@ -1,0 +1,97 @@
+
+.section-two {
+    @include flexCenter(row)   
+    //background-color: $pastel-yellow;
+}  
+        button {
+        background-color: $pastel-pink;
+        
+        &:hover {
+            background: $orange-button-hover;
+                }
+          } 
+    
+          .section-two-title
+           {
+            @include divHeight();
+
+            font-weight: $fw-bold;
+            background-color: $pastel-green;
+            width: auto;
+           
+            &:hover {
+                background-color: rgb(89, 228, 247);
+            }
+          }
+
+          .section-two-subtitle{
+            @include divHeight();
+            background-color: $pastel-purple;
+                &:hover {
+                background-color: rgba(13, 17, 241, 0.842);
+                color: white;
+            }
+        
+         }
+
+
+            .section-two-subsub {
+                @include divHeight();
+                background-color: rgb(248, 232, 140);
+                   &:hover {
+                   background-color: gold;
+            }
+        }
+
+         .section-two-button {
+            @include divHeight();
+        
+            background-color: $orange-button-hover;
+              &:hover {
+                background-color: black;
+                color: white;
+            }
+        }
+
+         .section-two-info {
+            @include divHeight();
+
+            background-color: $blue-button-hover;
+                &:hover {
+                background-color: rgb(87, 252, 136);
+            }
+         }
+
+
+.section-three {
+    @include flexCenter(column);
+    height: 90vh;
+    background-color:  $pastel-orange;
+    &:hover {
+        background: $pink-button-hover;
+        }
+}
+
+.section-four {
+    @include flexCenter(row);
+    background-color:$blue-button-hover;
+    margin:1em 0;
+    height: 4rem;
+     &:hover {
+        background: $pink-button-hover;
+        }
+}
+
+
+.section-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2em;
+     &:hover {
+         background-color: greenyellow;
+     }
+            
+        grid:nth-child(1) {
+      color: $pastel-purple;}
+}
+

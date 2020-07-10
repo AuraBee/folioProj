@@ -1,0 +1,73 @@
+
+
+
+  .nav-bar {
+    @include flexCenter(row);
+    
+    height: 1rem;
+        a {
+            padding: 1rem;
+            text-decoration: none;
+        }
+      
+}
+
+
+header {
+    @include flexCenter(column);
+    background-color: $pastel-pink;
+    width:100vw;
+    
+
+
+    .title-nom, .title-job, p {
+       // padding-top: .5rem;
+        text-transform: uppercase;
+        font-weight: $fw-bold;
+  
+        }
+
+
+    
+    button:nth-child(1) {
+        background: $pastel-purple;
+        margin: 1rem .5rem;
+  
+
+        &:hover  {
+            background: $orange-button-hover;
+
+        }
+    }
+        
+      button:nth-child(2) {
+        background: $pastel-green;
+        margin: 1rem .5rem;
+     
+
+        &:hover {
+            background: $orange-button-hover;
+        }
+      }
+
+    button:nth-child(3) {
+        background: $pastel-orange;
+        margin: 1rem .5rem;
+      
+
+        &:hover {
+            background: $orange-button-hover; 
+        }
+    }
+
+    button:nth-child(4) {
+        background: $pastel-blue;
+        margin: 1rem .5rem;
+   
+        &:hover {
+            background: $orange-button-hover;
+        }   
+    }
+}
+
+

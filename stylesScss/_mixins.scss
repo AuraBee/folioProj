@@ -1,0 +1,27 @@
+
+//header mixin//
+@mixin flexCenter($direction) {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: $direction;
+}
+
+
+//sectiion-two mixins
+
+@mixin divHeight() {
+    padding: 0 2em;
+    height: 90%;
+    margin: 0 1em 0 1em;
+    padding: 0 2em;
+
+       
+}
+
+
+@mixin flexAlign {
+    align-items: start;
+    justify-content: start;
+}

@@ -1,0 +1,314 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  font-family: 'Baloo Paaji 2', cursive;
+  width: 100vw;
+}
+
+.nav-bar {
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 1rem;
+}
+
+.nav-bar a {
+  padding: 1rem;
+  text-decoration: none;
+}
+
+header {
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: pink;
+  width: 100vw;
+}
+
+header .title-nom, header .title-job, header p {
+  text-transform: uppercase;
+  font-weight: 4em;
+}
+
+header button:nth-child(1) {
+  background: #ff8dff;
+  margin: 1rem .5rem;
+}
+
+header button:nth-child(1):hover {
+  background: #f57d7d;
+}
+
+header button:nth-child(2) {
+  background: #a8faa8;
+  margin: 1rem .5rem;
+}
+
+header button:nth-child(2):hover {
+  background: #f57d7d;
+}
+
+header button:nth-child(3) {
+  background: #fdd894;
+  margin: 1rem .5rem;
+}
+
+header button:nth-child(3):hover {
+  background: #f57d7d;
+}
+
+header button:nth-child(4) {
+  background: #9d9df8;
+  margin: 1rem .5rem;
+}
+
+header button:nth-child(4):hover {
+  background: #f57d7d;
+}
+
+.section-two {
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+button {
+  background-color: pink;
+}
+
+button:hover {
+  background: #f57d7d;
+}
+
+.section-two-title {
+  padding: 0 2em;
+  height: 90%;
+  margin: 0 1em 0 1em;
+  padding: 0 2em;
+  font-weight: 4em;
+  background-color: #a8faa8;
+  width: auto;
+}
+
+.section-two-title:hover {
+  background-color: #59e4f7;
+}
+
+.section-two-subtitle {
+  padding: 0 2em;
+  height: 90%;
+  margin: 0 1em 0 1em;
+  padding: 0 2em;
+  background-color: #ff8dff;
+}
+
+.section-two-subtitle:hover {
+  background-color: rgba(13, 17, 241, 0.842);
+  color: white;
+}
+
+.section-two-subsub {
+  padding: 0 2em;
+  height: 90%;
+  margin: 0 1em 0 1em;
+  padding: 0 2em;
+  background-color: #f8e88c;
+}
+
+.section-two-subsub:hover {
+  background-color: gold;
+}
+
+.section-two-button {
+  padding: 0 2em;
+  height: 90%;
+  margin: 0 1em 0 1em;
+  padding: 0 2em;
+  background-color: #f57d7d;
+}
+
+.section-two-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.section-two-info {
+  padding: 0 2em;
+  height: 90%;
+  margin: 0 1em 0 1em;
+  padding: 0 2em;
+  background-color: #7d7df5;
+}
+
+.section-two-info:hover {
+  background-color: #57fc88;
+}
+
+.section-three {
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 90vh;
+  background-color: #fdd894;
+}
+
+.section-three:hover {
+  background: #f5a3e7;
+}
+
+.section-four {
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #7d7df5;
+  margin: 1em 0;
+  height: 4rem;
+}
+
+.section-four:hover {
+  background: #f5a3e7;
+}
+
+.section-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2em;
+}
+
+.section-grid:hover {
+  background-color: greenyellow;
+}
+
+.section-grid grid:nth-child(1) {
+  color: #ff8dff;
+}
+
+/* For desktop: */
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  body {
+    color: blue;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 500px) {
+  .title-nom, .title-job {
+    color: #ff8dff;
+  }
+}
+/*# sourceMappingURL=main.css.map */
